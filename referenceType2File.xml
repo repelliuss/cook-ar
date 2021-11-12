@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>842f43ac94b4b4f72ac0898650ddcc44</guid>
+    <fileName>Assets/Cleaner/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2015-12-09T21:51:26+03:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.AssetCollector</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>805140a4856714e288ea84985d3023df</guid>
+    <fileName>Assets/Cleaner/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T21:51:26+03:00</timeStamp>
+    <typeFullName>
+      <string>AssetReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>202c278a17939b24c8b79c0ee1f94d8f</guid>
+    <fileName>Assets/Cleaner/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T21:51:26+03:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.ClassReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0d05386265df34bac8d0b6df44aa494c</guid>
+    <fileName>Assets/Cleaner/Editor/CollectionData.cs</fileName>
+    <timeStamp>2015-12-09T21:51:26+03:00</timeStamp>
+    <typeFullName>
+      <string>CollectionData</string>
+      <string>TypeDate</string>
+      <string>IReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>74eec3bfba0594259ac2843353c082a3</guid>
+    <fileName>Assets/Cleaner/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2015-12-09T21:51:26+03:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.FindUnusedAssetsWindow</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2c4f01a79a77a45a9a84004cc2b78098</guid>
+    <fileName>Assets/Cleaner/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T21:51:26+03:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.ShaderReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3c902d4de211e254696822f0986036d7</guid>
+    <fileName>Assets/Editor/FindMissingScripts.cs</fileName>
+    <timeStamp>2021-11-11T23:26:25.3404464+03:00</timeStamp>
+    <typeFullName>
+      <string>FindMissingScriptsRecursively</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3bbef22eb814a9647b6c1f03e99d95da</guid>
+    <fileName>Assets/Editor/Migration/AddVuforiaEnginePackage.cs</fileName>
+    <timeStamp>2021-09-25T05:15:35+03:00</timeStamp>
+    <typeFullName />
+  </TypeDate>
+  <TypeDate>
+    <guid>8240b79b903e7c84ab1412a7dcd8dc79</guid>
+    <fileName>Assets/Scripts/Button.cs</fileName>
+    <timeStamp>2021-11-11T16:27:53.4192068+03:00</timeStamp>
+    <typeFullName>
+      <string>Button</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d638df1f7839f5c4bbe09eabbcbfef60</guid>
+    <fileName>Assets/Scripts/HandleScenes.cs</fileName>
+    <timeStamp>2021-11-12T00:17:43.9820527+03:00</timeStamp>
+    <typeFullName>
+      <string>HandleScenes</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>971a7f0ae0752d4409bfff3f2863d3c6</guid>
+    <fileName>Assets/Scripts/InputHandler.cs</fileName>
+    <timeStamp>2021-11-11T18:29:38.2710697+03:00</timeStamp>
+    <typeFullName>
+      <string>InputHandler</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a25298990fec20f4184c64d5588eb2ea</guid>
+    <fileName>Assets/Scripts/SpiceTriggerAnimation.cs</fileName>
+    <timeStamp>2021-11-11T23:45:29.4246184+03:00</timeStamp>
+    <typeFullName>
+      <string>SpiceTriggerAnimation</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>159ccab80f39ad74c9253635e21c350b</guid>
+    <fileName>Assets/Scripts/SteakAction.cs</fileName>
+    <timeStamp>2021-11-11T23:20:55.0735633+03:00</timeStamp>
+    <typeFullName>
+      <string>SteakAction</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>40bb0bd724d27f5439934c76582ac62b</guid>
+    <fileName>Assets/Scripts/SteakLogic.cs</fileName>
+    <timeStamp>2021-11-12T00:18:16.2381173+03:00</timeStamp>
+    <typeFullName>
+      <string>Location</string>
+      <string>SteakLogic</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>50cd157d0e5c1cd4eaffa1243d6a97fb</guid>
+    <fileName>Assets/Scripts/TriggerAnimation.cs</fileName>
+    <timeStamp>2021-11-11T23:02:28.9416562+03:00</timeStamp>
+    <typeFullName>
+      <string>TriggerAnimation</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fcf7219bab7fe46a1ad266029b2fee19</guid>
+    <fileName>Assets/TutorialInfo/Scripts/Readme.cs</fileName>
+    <timeStamp>2021-11-12T11:58:43.2273247+03:00</timeStamp>
+    <typeFullName>
+      <string>Readme</string>
+      <string>Readme+Section</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>40079260bda69f14c80332a04d1632a6</guid>
+    <fileName>Assets/VoxelAnimals/Assets/Scripts/PlayerController.cs</fileName>
+    <timeStamp>2019-05-08T02:57:57+03:00</timeStamp>
+    <typeFullName>
+      <string>PlayerController</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+</ArrayOfTypeDate>
