@@ -1,0 +1,1 @@
+Image target can be found at [[file:Assets/Editor/Vuforia/ImageTargetTextures/VacyDatabase/palme_scaled.jpg]].
