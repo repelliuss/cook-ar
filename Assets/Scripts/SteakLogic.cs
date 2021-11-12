@@ -9,6 +9,7 @@ public class SteakLogic : MonoBehaviour
     public bool Failed = false;
     public RectTransform resetButton;
     public RectTransform doneButton;
+    public Timer timer;
 
     Location _location = Location.FRIDGE;
     public Location SteakLocation
@@ -36,6 +37,13 @@ public class SteakLogic : MonoBehaviour
         Debug.Log("DONE!!!");
         resetButton.gameObject.SetActive(false);
         doneButton.gameObject.SetActive(true);
+    }
+
+    public void CookingStart()
+    {
+        Debug.Log("Cooking begins!");
+        timer.AlarmInSeconds = 10;
+        timer.StartTimer();
     }
 
     public void AddSpice()

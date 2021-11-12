@@ -25,7 +25,7 @@ public class SteakAction : MonoBehaviour
                 {
                     anim.SetTrigger("toPan");
                     logic.SteakLocation = Location.PAN;
-                    logic.Done();
+                    logic.CookingStart();
                 }
                 else
                 {
