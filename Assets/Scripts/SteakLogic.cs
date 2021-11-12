@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Video;
 using UnityEngine.Assertions;
 
 public enum Location { FRIDGE, STAND, PAN };
@@ -10,15 +11,20 @@ public class SteakLogic : MonoBehaviour
     public RectTransform resetButton;
     public RectTransform doneButton;
     public Timer timer;
+    public VideoPlayer video;
 
     Location _location = Location.FRIDGE;
     public Location SteakLocation
     { get => _location; set => _location = value; }
 
+    private Animator catAnimator;
+
     void Start()
     {
         Assert.IsNotNull(resetButton, "Assign a game reset button to " + name);
         Assert.IsNotNull(doneButton, "Assign a game done button to " + name);
+        Assert.IsNotNull(video, "Assign a video player to " + name);
+        catAnimator = GameObject.FindGameObjectWithTag("Movable").GetComponent<Animator>();
     }
 
     public void Fail()
@@ -28,8 +34,8 @@ public class SteakLogic : MonoBehaviour
         RectTransform t = resetButton;
         t.anchorMin = t.anchorMax = t.pivot = new Vector2(0.5f, 0.5f);
         t.localScale *= 2;
-        // TODO: STOP VIDEO
-        // STOP CAT
+        video.Pause();
+        catAnimator.enabled = false;
     }
 
     public void Done()

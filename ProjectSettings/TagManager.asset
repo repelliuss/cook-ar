@@ -6,6 +6,7 @@ TagManager:
   tags:
   - fridge
   - Recipe
+  - Movable
   layers:
   - Default
   - TransparentFX
