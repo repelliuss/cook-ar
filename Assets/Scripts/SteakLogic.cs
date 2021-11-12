@@ -19,12 +19,22 @@ public class SteakLogic : MonoBehaviour
 
     private Animator catAnimator;
 
+    private new AudioSource audio;
+
+    [SerializeField]
+    private AudioClip audioClipFail;
+    [SerializeField]
+    private AudioClip audioClipDone;
+
     void Start()
     {
         Assert.IsNotNull(resetButton, "Assign a game reset button to " + name);
         Assert.IsNotNull(doneButton, "Assign a game done button to " + name);
         Assert.IsNotNull(video, "Assign a video player to " + name);
+        Assert.IsNotNull(audioClipFail, "Assign a fail audio clip to " + name);
+        Assert.IsNotNull(audioClipDone, "Assign a done audio clip to " + name);
         catAnimator = GameObject.FindGameObjectWithTag("Movable").GetComponent<Animator>();
+        audio = GetComponent<AudioSource>();
     }
 
     public void Fail()
@@ -36,6 +46,8 @@ public class SteakLogic : MonoBehaviour
         t.localScale *= 2;
         video.Pause();
         catAnimator.enabled = false;
+        audio.clip = audioClipFail;
+        audio.Play();
     }
 
     public void Done()
@@ -43,6 +55,8 @@ public class SteakLogic : MonoBehaviour
         Debug.Log("DONE!!!");
         resetButton.gameObject.SetActive(false);
         doneButton.gameObject.SetActive(true);
+        audio.clip = audioClipDone;
+        audio.Play();
     }
 
     public void CookingStart()
