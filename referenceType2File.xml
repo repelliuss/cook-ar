@@ -110,7 +110,7 @@
   <TypeDate>
     <guid>159ccab80f39ad74c9253635e21c350b</guid>
     <fileName>Assets/Scripts/SteakAction.cs</fileName>
-    <timeStamp>2021-11-11T23:20:55.0735633+03:00</timeStamp>
+    <timeStamp>2021-11-12T16:53:37.0475277+03:00</timeStamp>
     <typeFullName>
       <string>SteakAction</string>
     </typeFullName>
@@ -119,7 +119,7 @@
   <TypeDate>
     <guid>40bb0bd724d27f5439934c76582ac62b</guid>
     <fileName>Assets/Scripts/SteakLogic.cs</fileName>
-    <timeStamp>2021-11-12T00:18:16.2381173+03:00</timeStamp>
+    <timeStamp>2021-11-12T16:58:49.5476369+03:00</timeStamp>
     <typeFullName>
       <string>Location</string>
       <string>SteakLogic</string>
@@ -151,6 +151,24 @@
     <timeStamp>2019-05-08T02:57:57+03:00</timeStamp>
     <typeFullName>
       <string>PlayerController</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>78fc621be9bdd4746a80375545dd6cbb</guid>
+    <fileName>Assets/Scripts/Timer.cs</fileName>
+    <timeStamp>2021-11-12T13:15:25.7000104+03:00</timeStamp>
+    <typeFullName>
+      <string>Timer</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>607ef3c076b595047b757bb340a55ade</guid>
+    <fileName>Assets/Scripts/VideoActions.cs</fileName>
+    <timeStamp>2021-11-12T14:44:43.5694097+03:00</timeStamp>
+    <typeFullName>
+      <string>VideoActions</string>
     </typeFullName>
     <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
   </TypeDate>
